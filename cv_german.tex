@@ -1,0 +1,54 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style options: 'casual', 'classic', 'banking', 'oldstyle', 'fancy'
+\moderncvstyle{classic} 
+\font\myfont=cmr12 at 10pt
+% Color options: 'blue', 'orange', 'green', 'red', 'purple', 'grey', 'black'
+\moderncvcolor{blue} 
+\renewcommand{\familydefault}{helvetica}
+\usepackage[utf8]{inputenc}
+
+% Adjust the page margins
+\usepackage[scale=0.75, top=2cm, bottom = 2cm]{geometry}
+\usepackage[ngerman]{babel} 
+% Personal Data
+\name{Samuel}{O'Neill}
+\title{{\myfont Informatikstudent an der ETH Zürich}}                               
+\address{Haldenpark 22}{4313, Möhlin}{Switzerland}
+\phone[mobile]{+41 79 868 58 84}
+\email{samueloneill.dev@gmail.com}
+\social[linkedin][www.linkedin.com/in/samuel-o-neill-98a1b01b8]{Samuel O'Neill}
+\social[github]{Diddleydope}
+\photo[110px][2px]{samuel_picture.png}
+
+%----------------------------------------------------------------------------------
+%            Content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Ausbildung}
+\cventry{2019-2023}{Gymnasium Muttenz}{Schwerpunkt Mathe und Physik}{Muttenz}{}{}
+\cventry{2024-2027}{Bachelor der Informatik}{ETH Zürich}{Zürich}{Notenschnitt: 4.9 (Drittes Sem.)}{Besuche zurzeit  Kernfächer wie Introduction to Machine Learning und Visual Computing}
+
+\section{Erfahrung und Projekte}
+\cventry{2022-2023}{Dezentralisierter Messenger}{Maturaarbeit}{Note: 5,5}{\newline Sprachen/Technologien: Javascript, CSS, HTML, GUN.js}{
+Ein dezentralisierter Messenger mit GUN.js, welcher Verschlüsselung nutzt, um durch Dezentralisierung einen sicheren Nachrichtenaustausch zu ermöglichen.}
+\cventry{2024 (Jan - Mai)}{Praktikum}{SPECS Zürich GmbH}{\newline Sprachen/Technologien: Python, PyPi}{}{Entwicklung von zwei Python-Paketen zur Kommunikation mit Nanonis Tramea und SPM-Controllern via Python (Siehe nanonis-tramea (35x im letzten Monat heruntergeladen) und nanonis-spm (174x im letzten Monat heruntergeladen) auf pypi)
+}
+
+\cventry{2024-Today}{ShinyDiary | Persönliches Projekt}{\newline Sprachen/Technologien: Rust, Tauri, Svelte, TypeScript, Firebase}{}{}{Entwicklung einer plattformübergreifenden Desktop-Anwendung für Pokémon „Shiny Hunting“-Enthusiasten zur Nachverfolgung, Protokollierung und Automatisierung von Begegnungsstatistiken. Implementierung einer „debounced“ Datenpersistenz-Strategie zur verbesserten Skalierbarkeit und Kostensenkung. (Siehe GitHub)}
+\section{Languages}
+\cvitemwithcomment{Englisch}{Fliessend}{Muttersprache}
+\cvitemwithcomment{Deutsch}{Fliessend}{Muttersprache}
+\cvitemwithcomment{Französisch}{Fortgeschritten}{B2 Level}
+
+\section*{Technische Fähigkeiten}
+\noindent \textbf{Sprachen:} Python, C, C++, Java, Haskell, JavaScript, SQL, HTML/CSS \\
+\textbf{Machine Learning:} PyTorch, Scikit-learn, Computer Vision \\
+\textbf{Web Development:} Svelte, Node.js, Tauri  \\
+\textbf{Developer Tools:} Git, Docker, Kathara, VS Code, Linux, GitHub Actions
+
+
+
+\end{document}
