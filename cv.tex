@@ -1,0 +1,54 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style options: 'casual', 'classic', 'banking', 'oldstyle', 'fancy'
+\moderncvstyle{classic} 
+\font\myfont=cmr12 at 15pt
+% Color options: 'blue', 'orange', 'green', 'red', 'purple', 'grey', 'black'
+\moderncvcolor{blue} 
+\renewcommand{\familydefault}{helvetica}
+\usepackage[utf8]{inputenc}
+
+% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% Personal Data
+\name{Samuel}{O'Neill}
+\title{{\myfont Student Of Computer Science at ETH Zurich}}                               
+\address{Haldenpark 22}{4313, Möhlin}{Switzerland}
+\phone[mobile]{+41 79 868 58 84}
+\email{samueloneill.dev@gmail.com}
+\social[linkedin][www.linkedin.com/in/samuel-o-neill-98a1b01b8]{Samuel O'Neill}
+\social[github]{Diddleydope}
+\photo[110px][2px]{samuel_picture.png}
+
+%----------------------------------------------------------------------------------
+%            Content
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2019-2023}{Gymnasium Muttenz}{Focus Math and Physics}{Muttenz}{}{}
+\cventry{2024-2027}{Bachelor Of Computer Science}{ETH Zurich}{Zurich}{GPA: 4.9 (3rd Sem)}{Currently taking Key Courses such as Introduction to Machine Learning, Computer Vision}
+
+\section{Experience and Projects}
+\cventry{2022-2023}{Decentralized Messenger}{Matura Project}{Grade: 5,5}{\newline Languages/Tech: Javascript, CSS, HTML, GUN.js}{
+Built a decentralized messenger app using GUN.js, which leveraged encryption and independence through decentralization to allow users to securely exchange messages}
+\cventry{2024 (Jan - May)}{Intern}{SPECS Zurich GmbH}{\newline Languages/Tech: Python, PyPi}{}{Authored two python packages which allow customers to communicate with Nanonis Tramea and SPM Controllers through python (see nanonis-tramea (35 downloads past month) and nanonis-spm (174 downloads past month) on pypi)
+}
+
+\cventry{2024-Today}{ShinyDiary | Creator and Lead Developer }{\newline Languages/Tech: Rust, Tauri, Svelte, Typescript, Firebase}{}{}{Developed a cross-platform desktop application designed for Pokémon "Shiny Hunting" enthusiasts to track, log, and automate encounter statistics with a debounced persistance database strategy for improved scalability and reduced costs. (See GitHub)}
+\section{Languages}
+\cvitemwithcomment{English}{Native}{Mother tongue}
+\cvitemwithcomment{German}{Native}{Mother tongue}
+\cvitemwithcomment{French}{Intermediate}{B2 Level}
+
+\section*{Technical Skills}
+\noindent \textbf{Languages:} Python, C, Java, Haskell, JavaScript, SQL, HTML/CSS \\
+\textbf{Machine Learning:} PyTorch, Scikit-learn, Computer Vision \\
+\textbf{Web Development:} Svelte, Node.js, Tauri  \\
+\textbf{Developer Tools:} Git, Docker, Kathara, VS Code, Linux, GitHub Actions
+
+
+
+\end{document}
